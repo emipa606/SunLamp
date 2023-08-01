@@ -1,4 +1,11 @@
 # Changelog for SunLamp
 
+1.4.1 - Added support for sunlamps from:
+Simple Utilities: Ceiling
+Utility Columns
+Project Rimfactory
+Wallight
+
+
 1.4.0 - First publish
 
