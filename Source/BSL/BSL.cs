@@ -9,7 +9,6 @@ public class BSL
 {
     static BSL()
     {
-        var harmony = new Harmony("com.github.toywalrus.bsl");
-        harmony.PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("com.github.toywalrus.bsl").PatchAll(Assembly.GetExecutingAssembly());
     }
 }

@@ -1,5 +1,8 @@
 # Changelog for SunLamp
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.1 - Added support for sunlamps from:
 Simple Utilities: Ceiling
 Utility Columns
