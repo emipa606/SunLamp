@@ -1,5 +1,8 @@
 # Changelog for SunLamp
 
+1.5.1 - Added support for the wall-sunlamp in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1423699208]Wall Light [/url]
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

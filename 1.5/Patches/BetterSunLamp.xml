@@ -9,7 +9,7 @@
   </Operation>
   <!-- Remove auto-turning off at night -->
   <Operation Class="PatchOperationRemove">
-    <xpath>/Defs/ThingDef[defName="SunLamp" or defName="Owl_CeilingSunLamp" or defName="SunColumnMod" or defName="PRF_SunWallLight" or defName="Lighting_MURWallSunLight"]/comps/li[@Class='CompProperties_Schedule']</xpath>
+    <xpath>/Defs/ThingDef[defName="SunLamp" or defName="Owl_CeilingSunLamp" or defName="SunColumnMod" or defName="PRF_SunWallLight" or defName="Lighting_MURWallSunLight" or defName="MURWallSunLamp"]/comps/li[@Class='CompProperties_Schedule']</xpath>
   </Operation>
   <!-- Make the lamp produce more heat (makes sense cause it's such a POWER HOG) -->
   <Operation Class="PatchOperationReplace">
