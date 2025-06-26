@@ -4,12 +4,10 @@ using Verse;
 
 namespace BSL;
 
-[HarmonyPatch(typeof(Plant))]
-[HarmonyPatch("Resting", MethodType.Getter)]
+[HarmonyPatch(typeof(Plant), "Resting", MethodType.Getter)]
 public static class Plant_Resting
 {
-    [HarmonyPostfix]
-    public static void IsResting(Plant __instance, ref bool __result)
+    public static void Postfix(Plant __instance, ref bool __result)
     {
         var isInBasin = false;
         foreach (var cri in __instance.OccupiedRect())
