@@ -5,7 +5,7 @@ using Verse;
 namespace BSL;
 
 [StaticConstructorOnStartup]
-public class BSL
+public static class BSL
 {
     static BSL()
     {
